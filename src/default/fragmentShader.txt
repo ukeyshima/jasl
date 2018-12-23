@@ -1,0 +1,9 @@
+precision mediump float;
+uniform float time;
+uniform vec2 resolution;
+
+void main(void){
+    var p = (gl_FragCoord.xy * 2.0 - resolution) / min(resolution.x, resolution.y);    
+    var color = vec3(p,abs(sin(time)));
+    gl_FragColor=vec4(color,1.0);
+}

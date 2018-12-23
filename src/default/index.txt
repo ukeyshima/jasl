@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>default</title>
+        <link rel="stylesheet" href="main.css">
+        <script id="vs" type="vertexShader.glsl"></script>
+        <script id="fs" type="fragmentShader.glsl"></script>
+    </head>
+    <body> 
+        <canvas id="canvas"></canvas>
+        <script src="main.js"></script>
+    </body>
+</html>
